@@ -1,0 +1,8 @@
+prefix=/home/cym/test/install
+
+Name: test_gtl_ros_conflict
+Description: Description of test_gtl_ros_conflict
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs hardware_interface controller_interface controller_manager urdf iiwa_tools realtime_tools message_runtime

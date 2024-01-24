@@ -1,0 +1,8 @@
+prefix=/home/cym/test/devel
+
+Name: iiwa_tools
+Description: Description of iiwa_tools
+Version: 0.0.1
+Cflags: -I/home/cym/test/devel/include -I/home/cym/test/src/iiwa_ros/iiwa_tools/include -I/usr/local/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -liiwa_tools -lmc_rbdyn_urdf -ltinyxml2 -lRBDyn
+Requires: roscpp message_runtime std_msgs sensor_msgs geometry_msgs

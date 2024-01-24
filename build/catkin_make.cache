@@ -1,0 +1,2 @@
+iiwa_ros/iiwa_tools:test_gtl_ros_conflict
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/cym/test/devel -DCMAKE_INSTALL_PREFIX=/home/cym/test/install -G Unix Makefiles
