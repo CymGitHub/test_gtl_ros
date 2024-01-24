@@ -12,10 +12,12 @@ $ catkin_make -DCMAKE_BUILD_TYPE=Release
 
 $ roscore
 
-4 Run ros node code_test2
+4 Run ros node code_test
 
 $ cd devel/
+
 $ source setup.bash
+
 $ rosrun test_gtl_ros_conflict code_test
 
 
